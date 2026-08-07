@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopGravity.Core", "src\DesktopGravity.Core\DesktopGravity.Core.csproj", "{138D36D7-C885-4BB3-A28E-A6EE14FBE44D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopGravity.Windows", "src\DesktopGravity.Windows\DesktopGravity.Windows.csproj", "{59E9E87C-D1DF-4AA6-9D57-E90C444848CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopGravity.App", "src\DesktopGravity.App\DesktopGravity.App.csproj", "{147D7F40-A62E-413C-86C4-B63551946740}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopGravity.Core.Tests", "tests\DesktopGravity.Core.Tests\DesktopGravity.Core.Tests.csproj", "{90C88898-AB37-48C3-9CF1-D953684A9DBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopGravity.Windows.Tests", "tests\DesktopGravity.Windows.Tests\DesktopGravity.Windows.Tests.csproj", "{E765C967-46AC-4BC3-A36F-706C081190E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{138D36D7-C885-4BB3-A28E-A6EE14FBE44D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{138D36D7-C885-4BB3-A28E-A6EE14FBE44D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{138D36D7-C885-4BB3-A28E-A6EE14FBE44D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{138D36D7-C885-4BB3-A28E-A6EE14FBE44D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59E9E87C-D1DF-4AA6-9D57-E90C444848CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59E9E87C-D1DF-4AA6-9D57-E90C444848CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59E9E87C-D1DF-4AA6-9D57-E90C444848CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59E9E87C-D1DF-4AA6-9D57-E90C444848CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{147D7F40-A62E-413C-86C4-B63551946740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{147D7F40-A62E-413C-86C4-B63551946740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{147D7F40-A62E-413C-86C4-B63551946740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{147D7F40-A62E-413C-86C4-B63551946740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90C88898-AB37-48C3-9CF1-D953684A9DBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90C88898-AB37-48C3-9CF1-D953684A9DBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90C88898-AB37-48C3-9CF1-D953684A9DBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90C88898-AB37-48C3-9CF1-D953684A9DBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E765C967-46AC-4BC3-A36F-706C081190E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E765C967-46AC-4BC3-A36F-706C081190E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E765C967-46AC-4BC3-A36F-706C081190E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E765C967-46AC-4BC3-A36F-706C081190E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
